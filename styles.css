@@ -13,6 +13,8 @@ body {
     height: 700px;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
     display: flex;
+    border-radius: 10px;
+    object-fit: contain;
 }
 
 .bigwrap {
@@ -24,6 +26,13 @@ body {
     display: flex;
     align-items: center;
     justify-self: left;
+}
+
+.controls__trans {
+    display: flex;
+    align-items: center;
+    justify-self: left;
+    margin-left: 20px;
 }
 
 .controls__btns {
@@ -42,6 +51,7 @@ body {
     background-color: white;
     border: 1px solid rgba(32, 32, 32, 0.808);
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
 }
 
 .controls__btns button:active {
@@ -51,7 +61,7 @@ body {
 .controls {
     width: 790px;
     height: 700;
-    padding: 20px 0;
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
 }
